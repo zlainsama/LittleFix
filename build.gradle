@@ -43,3 +43,10 @@ processResources
         exclude 'mcmod.info'
     }
 }
+
+jar
+{
+    manifest {
+        attributes 'FMLCorePlugin': 'lain.mods.littlefix.LittleFix'
+    }
+}
